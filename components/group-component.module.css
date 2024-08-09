@@ -1,0 +1,436 @@
+.frameChild,
+.image3Icon {
+  position: relative;
+  max-width: 100%;
+}
+.frameChild {
+  height: 435px;
+  width: 1699px;
+  background-color: var(--color-gray-700);
+  display: none;
+}
+.image3Icon {
+  align-self: stretch;
+  flex: 1;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+  z-index: 4;
+}
+.logoContainer {
+  height: 179px;
+  width: 249px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-2xl) 0 0;
+  box-sizing: border-box;
+}
+.services,
+.westbrookTruckRepair {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  z-index: 1;
+}
+.westbrookTruckRepair {
+  flex: 1;
+  min-width: 121px;
+}
+.services {
+  text-decoration: none;
+  color: inherit;
+  min-width: 60px;
+}
+.servicesLink {
+  width: 162px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-xl) 0 0;
+  box-sizing: border-box;
+}
+.contactUs {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 79px;
+  z-index: 1;
+}
+.westbrookTruckRepairParent {
+  width: 447px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+  max-width: 100%;
+  font-size: var(--font-size-sm);
+  color: var(--white);
+}
+.about,
+.home {
+  font-weight: 500;
+  display: inline-block;
+}
+.home {
+  width: 47.3px;
+  position: relative;
+  z-index: 1;
+}
+.about {
+  width: 56px;
+}
+.about,
+.services1,
+.vectorIcon {
+  position: relative;
+  z-index: 1;
+}
+.services1 {
+  flex: 1;
+  font-weight: 600;
+}
+.vectorIcon {
+  width: 6.3px;
+  height: 8px;
+}
+.servicesLinkContainer,
+.vectorWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.vectorWrapper {
+  flex-direction: column;
+  padding: var(--padding-10xs) 0 0;
+}
+.servicesLinkContainer {
+  align-self: stretch;
+  flex-direction: row;
+  gap: var(--gap-xl-6);
+  color: var(--color-cornflowerblue-200);
+}
+.homeAbout,
+.homeAboutLinks {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.homeAboutLinks {
+  align-self: stretch;
+  justify-content: flex-start;
+  gap: var(--gap-lgi);
+}
+.homeAbout {
+  width: 94.7px;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-10xs);
+  box-sizing: border-box;
+}
+.dieselEngineRepair {
+  width: 130px;
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  z-index: 1;
+}
+.dieselEngineMaintenance {
+  align-self: stretch;
+  position: relative;
+  font-weight: 500;
+  z-index: 1;
+}
+.mobileTruckRepair {
+  width: 125px;
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  z-index: 1;
+}
+.repairLinksContainer {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs) 0 0;
+  box-sizing: border-box;
+  min-width: 105px;
+}
+.centennialDrive {
+  margin: 0;
+}
+.centennialDriveKingstonContainer {
+  position: relative;
+  font-weight: 500;
+  z-index: 1;
+}
+.homeAboutParent,
+.repairLinksContainerParent {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+}
+.repairLinksContainerParent {
+  width: 336px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3xs);
+}
+.homeAboutParent {
+  align-self: stretch;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.contactUs1 {
+  width: 72.6px;
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.emergencyRepair,
+.fuelFiltersAirFiltersBelWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.emergencyRepair {
+  width: 326px;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: var(--gap-xl);
+}
+.fuelFiltersAirFiltersBelWrapper {
+  align-self: stretch;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 0 var(--padding-37xl);
+}
+.oilChanges {
+  width: 141px;
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.oilChangesWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 0 var(--padding-2xl);
+}
+.footerLinks,
+.frameParent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frameParent {
+  align-self: stretch;
+  gap: var(--gap-mid-5);
+}
+.footerLinks {
+  width: 532px;
+  padding: var(--padding-11xs) 0 0;
+  box-sizing: border-box;
+}
+.followUs1,
+.socialsChild {
+  position: relative;
+  z-index: 1;
+}
+.followUs1 {
+  font-weight: 600;
+  display: inline-block;
+  min-width: 66px;
+}
+.socialsChild {
+  height: 40px;
+  width: 40px;
+  min-height: 40px;
+}
+.followUsTitle,
+.socials {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--gap-xl);
+}
+.socials {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.followUsTitle {
+  width: 280px;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.subscribeUs {
+  position: relative;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 92px;
+  z-index: 1;
+}
+.emailFieldChild {
+  height: 48px;
+  width: 280px;
+  position: relative;
+  border-radius: var(--br-5xs) 0 0 var(--br-5xs);
+  background-color: var(--color-gray-100);
+  border: 1px solid var(--color-whitesmoke-200);
+  box-sizing: border-box;
+  display: none;
+}
+.email {
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 39px;
+  z-index: 2;
+}
+.emailField {
+  flex: 1;
+  border-radius: var(--br-5xs) 0 0 var(--br-5xs);
+  background-color: var(--color-gray-100);
+  border: 1px solid var(--color-whitesmoke-200);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-2xs) var(--padding-xl) var(--padding-xs);
+  min-width: 39px;
+  z-index: 1;
+}
+.submitIconChild {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 0 var(--br-5xs) var(--br-5xs) 0;
+  background-color: var(--color-cornflowerblue-200);
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.vectorIcon1 {
+  position: absolute;
+  top: 20px;
+  left: 22px;
+  width: 4px;
+  height: 8px;
+  z-index: 3;
+}
+.submitIcon {
+  height: 48px;
+  width: 48px;
+  position: relative;
+  border-radius: 0 var(--br-5xs) var(--br-5xs) 0;
+  background-color: var(--color-cornflowerblue-200);
+  z-index: 2;
+}
+.emailInput {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  row-gap: 20px;
+  color: var(--color-gray-600);
+}
+.subscribeTitle {
+  align-self: stretch;
+  flex-direction: column;
+  gap: var(--gap-mid);
+}
+.followSubscribe,
+.followUs,
+.rectangleParent,
+.subscribeTitle {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.followUs {
+  align-self: stretch;
+  flex-direction: column;
+  gap: var(--gap-21xl);
+}
+.followSubscribe,
+.rectangleParent {
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.followSubscribe {
+  width: 328px;
+  flex-direction: column;
+  padding: var(--padding-11xs) 0 0;
+  font-size: var(--font-size-sm);
+  color: var(--white);
+}
+.rectangleParent {
+  align-self: stretch;
+  background-color: var(--color-gray-700);
+  flex-direction: row;
+  padding: var(--padding-7xl) var(--padding-190xl) var(--padding-162xl);
+  gap: var(--gap-25xl);
+  z-index: 2;
+  text-align: left;
+  font-size: var(--font-size-3xs);
+  color: var(--color-gray-500);
+  font-family: var(--font-poppins);
+}
+@media screen and (max-width: 1625px) {
+  .rectangleParent {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1275px) {
+  .rectangleParent {
+    padding-left: var(--padding-85xl);
+    padding-right: var(--padding-85xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 900px) {
+  .homeAboutParent {
+    flex-wrap: wrap;
+  }
+  .rectangleParent {
+    gap: var(--gap-3xl);
+    padding-left: var(--padding-33xl);
+    padding-right: var(--padding-33xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .emergencyRepair,
+  .repairLinksContainerParent,
+  .westbrookTruckRepairParent {
+    flex-wrap: wrap;
+  }
+  .fuelFiltersAirFiltersBelWrapper {
+    padding-left: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .emailInput {
+    flex-wrap: wrap;
+  }
+  .followUs {
+    gap: var(--gap-xl);
+  }
+  .rectangleParent {
+    padding: var(--padding-xl) var(--padding-xl) var(--padding-99xl);
+    box-sizing: border-box;
+  }
+}

@@ -1,0 +1,25 @@
+.text {
+  position: relative;
+  font-size: var(--font-size-base);
+  line-height: 24px;
+  font-weight: 500;
+  font-family: var(--font-montserrat);
+  color: var(--white);
+  text-align: left;
+  display: inline-block;
+  min-width: 81px;
+}
+.buttonTextOnly {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-base) var(--padding-30xl);
+  background-color: var(--color-cornflowerblue-200);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.buttonTextOnly:hover {
+  background-color: var(--color-cornflowerblue-100);
+}

@@ -1,0 +1,595 @@
+.seeWorkChild,
+.workImageGrid {
+  height: 258.3px;
+  width: 254.2px;
+  position: relative;
+}
+.workImageGrid {
+  object-fit: cover;
+  min-height: 258px;
+}
+.seeWorkChild {
+  background-color: var(--color-cornflowerblue-200);
+  display: none;
+}
+.seeOurWork {
+  margin: 0;
+  height: 88px;
+  flex: 1;
+  position: relative;
+  font-size: inherit;
+  font-weight: 600;
+  font-family: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+.ourWork,
+.seeWork,
+.workItem {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.seeWork {
+  flex: 1;
+  background-color: var(--color-cornflowerblue-200);
+  justify-content: flex-start;
+  padding: var(--padding-66xl) var(--padding-12xl) var(--padding-66xl-3);
+  box-sizing: border-box;
+  min-width: 165px;
+}
+.ourWork,
+.workItem {
+  max-width: 100%;
+}
+.ourWork {
+  width: 1271.2px;
+  justify-content: flex-start;
+  gap: var(--gap-12xs-1);
+  opacity: 0.85;
+  mix-blend-mode: normal;
+  z-index: 1;
+}
+.workItem {
+  align-self: stretch;
+  justify-content: center;
+  padding: 0 var(--padding-2xl) 0 var(--padding-xl);
+  box-sizing: border-box;
+}
+.bg {
+  width: 1700px;
+  height: 1194px;
+  position: relative;
+  background-color: var(--color-whitesmoke-100);
+  display: none;
+  max-width: 100%;
+}
+.description,
+.title {
+  position: relative;
+  z-index: 1;
+}
+.description {
+  align-self: stretch;
+  line-height: 32px;
+  font-weight: 500;
+}
+.title {
+  margin: 0;
+  height: 129px;
+  width: 382px;
+  font-size: inherit;
+  letter-spacing: 0.02em;
+  line-height: 130.19%;
+  text-transform: capitalize;
+  font-weight: 700;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  max-width: 100%;
+}
+.titleWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+  box-sizing: border-box;
+  font-size: var(--font-size-29xl);
+  color: var(--black);
+}
+.itemTitle,
+.itemTitleWrapper,
+.titleWrapper {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.itemTitle {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.itemTitleWrapper {
+  width: 1067px;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 0 var(--padding-10xl) 0 var(--padding-11xl);
+  box-sizing: border-box;
+}
+.serviceItemsChild {
+  width: 331.6px;
+  height: 259.9px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-cornflowerblue-200);
+  display: none;
+  max-width: 100%;
+}
+.plug11 {
+  height: 105.5px;
+  width: 109.9px;
+  position: relative;
+  object-fit: cover;
+  z-index: 2;
+}
+.plugService {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-53xl) 0 var(--padding-48xl);
+}
+.dieselEngineRepair {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.02em;
+  line-height: 130.19%;
+  text-transform: capitalize;
+  font-weight: 500;
+  font-family: inherit;
+  z-index: 2;
+}
+.serviceItems {
+  align-self: stretch;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-cornflowerblue-200);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-29xl) var(--padding-21xl) var(--padding-base-6)
+    var(--padding-23xl);
+  box-sizing: border-box;
+  gap: var(--gap-8xl-8);
+  max-width: 100%;
+  z-index: 1;
+}
+.serviceItemsItem {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+}
+.naturalGas1Icon {
+  height: 101.7px;
+  width: 105.9px;
+  position: relative;
+  object-fit: cover;
+  z-index: 2;
+}
+.naturalGas1Wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-51xl) 0 var(--padding-54xl);
+}
+.dieselEngineMaintenance {
+  margin: 0;
+  align-self: stretch;
+  height: 59.5px;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.02em;
+  line-height: 130.19%;
+  text-transform: capitalize;
+  font-weight: 500;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 2;
+}
+.serviceItems1,
+.serviceItemsParent {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.serviceItems1 {
+  align-self: stretch;
+  align-items: flex-end;
+  padding: var(--padding-40xl-5) var(--padding-22xl) var(--padding-7xl-8);
+  position: relative;
+  gap: var(--gap-smi-4);
+  color: var(--black);
+}
+.serviceItemsParent {
+  flex: 1;
+  align-items: flex-start;
+  gap: var(--gap-15xl-5);
+  min-width: 249px;
+  max-width: 100%;
+  color: var(--white);
+}
+.airConditioner1Icon {
+  height: 122.8px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+  z-index: 2;
+}
+.airConditioner1Wrapper {
+  width: 238.8px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-36xl);
+  box-sizing: border-box;
+}
+.mobileTruckRepair1,
+.repairItems {
+  align-self: stretch;
+  position: relative;
+}
+.mobileTruckRepair1 {
+  margin: 0;
+  font-size: inherit;
+  letter-spacing: 0.02em;
+  line-height: 32px;
+  text-transform: capitalize;
+  font-weight: 500;
+  font-family: inherit;
+  z-index: 2;
+}
+.repairItems {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-30xl-9) var(--padding-21xl) var(--padding-27xl-6);
+  gap: var(--gap-4xs-6);
+}
+.solarPanel1Icon {
+  height: 95.9px;
+  width: 99.9px;
+  position: relative;
+  object-fit: cover;
+  z-index: 3;
+}
+.solarPanel1Wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-50xl);
+}
+.fuelFiltersAir {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.02em;
+  line-height: 130.19%;
+  text-transform: capitalize;
+  font-weight: 500;
+  font-family: inherit;
+  z-index: 3;
+}
+.filterTitle {
+  align-self: stretch;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-cornflowerblue-200);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-31xl-8) var(--padding-26xl) var(--padding-19xl-4)
+    var(--padding-18xl);
+  box-sizing: border-box;
+  gap: var(--gap-base-3);
+  max-width: 100%;
+  z-index: 2;
+}
+.viewAllServices {
+  width: 137px;
+  position: relative;
+  font-size: var(--font-size-base);
+  display: flex;
+  font-family: var(--font-open-sans);
+  color: var(--black);
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.chevronRightIcon {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.viewServices,
+.viewServicesButton {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.viewServicesButton {
+  cursor: pointer;
+  border: 2px solid var(--color-steelblue-200);
+  padding: var(--padding-base) var(--padding-2xs) var(--padding-sm-7)
+    var(--padding-xs);
+  background-color: transparent;
+  height: 57.7px;
+  flex: 1;
+  border-radius: var(--br-9xs);
+  gap: var(--gap-3xs);
+  z-index: 2;
+}
+.viewServicesButton:hover {
+  background-color: var(--color-steelblue-300);
+  border: 2px solid var(--color-steelblue-100);
+  box-sizing: border-box;
+}
+.viewServices {
+  align-self: stretch;
+  height: 53.7px;
+  padding: 0 var(--padding-47xl) 0 var(--padding-48xl);
+}
+.filterServices,
+.filterTitleParent,
+.mobileTruckRepair {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.filterTitleParent {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-mid-2);
+}
+.filterServices,
+.mobileTruckRepair {
+  box-sizing: border-box;
+}
+.filterServices {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-8xs);
+}
+.mobileTruckRepair {
+  flex: 1;
+  flex-direction: column;
+  padding: 0 var(--padding-8xs) 0 0;
+  gap: var(--gap-27xl-1);
+  min-width: 256px;
+}
+.fridge1Icon {
+  height: 107.4px;
+  width: 111.9px;
+  position: relative;
+  object-fit: cover;
+  z-index: 3;
+}
+.emergencyTitle,
+.fridge1Wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-51xl) 0 var(--padding-49xl);
+}
+.emergencyTitle {
+  border-radius: var(--br-3xs);
+  background-color: var(--color-cornflowerblue-200);
+  flex-direction: column;
+  padding: var(--padding-26xl-1) var(--padding-22xl) var(--padding-base-6);
+  box-sizing: border-box;
+  gap: var(--gap-9xl-8);
+  max-width: 100%;
+  z-index: 2;
+}
+.valve1Icon {
+  height: 82.5px;
+  width: 85.9px;
+  position: relative;
+  object-fit: cover;
+  z-index: 4;
+}
+.valve1Wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-63xl) 0 var(--padding-61xl);
+}
+.oilChanges1 {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.02em;
+  line-height: 29.7px;
+  text-transform: capitalize;
+  font-weight: 500;
+  font-family: inherit;
+  z-index: 4;
+}
+.oilChanges,
+.oilTitle {
+  display: flex;
+  align-items: flex-start;
+}
+.oilTitle {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-3xl);
+}
+.oilChanges {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 0 var(--padding-22xl) 0 var(--padding-23xl);
+}
+.emergencyRepair {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: var(--gap-84xl-6);
+  min-width: 249px;
+}
+.emergencyRepair,
+.frameParent,
+.workItemDescription,
+.workItems {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frameParent {
+  width: 1066.8px;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: var(--gap-12xl);
+  font-size: var(--font-size-5xl);
+  color: var(--black);
+}
+.workItemDescription,
+.workItems {
+  align-self: stretch;
+  flex-direction: column;
+}
+.workItemDescription {
+  background-color: var(--color-whitesmoke-100);
+  align-items: center;
+  padding: var(--padding-260xl) var(--padding-2xl) var(--padding-41xl-5)
+    var(--padding-xl);
+  box-sizing: border-box;
+  gap: var(--gap-21xl-7);
+  margin-top: -201.3px;
+  font-size: var(--font-size-lg);
+  color: var(--color-cornflowerblue-200);
+  font-family: var(--font-roboto);
+}
+.workItems {
+  align-items: flex-start;
+  text-align: center;
+  font-size: var(--font-size-17xl);
+  color: var(--white);
+  font-family: var(--font-poppins);
+}
+@media screen and (max-width: 1275px) {
+  .frameParent,
+  .ourWork {
+    flex-wrap: wrap;
+  }
+  .workItemDescription {
+    padding-bottom: var(--padding-20xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 900px) {
+  .seeOurWork {
+    font-size: var(--font-size-10xl);
+  }
+  .title {
+    font-size: var(--font-size-19xl);
+    line-height: 50px;
+  }
+  .frameParent {
+    gap: var(--gap-mini);
+  }
+  .workItemDescription {
+    gap: var(--gap-xl);
+    padding-bottom: var(--padding-6xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .seeOurWork {
+    font-size: var(--font-size-3xl);
+  }
+  .title {
+    font-size: var(--font-size-10xl);
+    line-height: 37px;
+  }
+  .dieselEngineRepair {
+    font-size: var(--font-size-lgi);
+    line-height: 25px;
+  }
+  .serviceItems {
+    padding-left: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .dieselEngineMaintenance {
+    font-size: var(--font-size-lgi);
+    line-height: 25px;
+  }
+  .serviceItemsParent {
+    gap: var(--gap-mid);
+  }
+  .fuelFiltersAir,
+  .mobileTruckRepair1 {
+    font-size: var(--font-size-lgi);
+    line-height: 25px;
+  }
+  .filterTitle,
+  .viewServices {
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .viewServices {
+    padding-left: var(--padding-xl);
+  }
+  .mobileTruckRepair {
+    gap: var(--gap-4xl);
+  }
+  .fridge1Wrapper {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .oilChanges1 {
+    font-size: var(--font-size-lgi);
+    line-height: 24px;
+  }
+  .oilChanges {
+    padding-left: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .emergencyRepair {
+    gap: var(--gap-33xl);
+  }
+}

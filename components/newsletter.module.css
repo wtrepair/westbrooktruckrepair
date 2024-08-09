@@ -1,0 +1,107 @@
+.image2Icon {
+  height: 313px;
+  width: 283px;
+  position: absolute;
+  margin: 0 !important;
+  right: 137px;
+  bottom: -6px;
+  object-fit: cover;
+  z-index: 1;
+}
+.newsletterContentChild {
+  height: 313px;
+  width: 1700px;
+  position: relative;
+  background-color: var(--color-steelblue-200);
+  display: none;
+  max-width: 100%;
+}
+.getTheLatest {
+  margin: 0;
+  width: 216px;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: 0.02em;
+  line-height: 41.5px;
+  text-transform: capitalize;
+  font-weight: 500;
+  font-family: inherit;
+  display: inline-block;
+  flex-shrink: 0;
+  z-index: 1;
+}
+.input {
+  align-self: stretch;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.12);
+  flex-direction: row;
+  row-gap: 20px;
+  z-index: 1;
+}
+.input,
+.inputContainer,
+.newsletter,
+.newsletterContent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.inputContainer {
+  width: 594px;
+  flex-direction: column;
+  padding: var(--padding-sm) 0 0;
+  box-sizing: border-box;
+}
+.newsletter,
+.newsletterContent {
+  flex-direction: row;
+}
+.newsletterContent {
+  flex: 1;
+  background-color: var(--color-steelblue-200);
+  padding: var(--padding-96xl) var(--padding-276xl);
+  box-sizing: border-box;
+  gap: var(--gap-23xl);
+}
+.newsletter {
+  align-self: stretch;
+  position: relative;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--white);
+  font-family: var(--font-roboto);
+}
+@media screen and (max-width: 1625px) {
+  .newsletterContent {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 1275px) {
+  .newsletterContent {
+    padding-left: var(--padding-128xl);
+    padding-right: var(--padding-128xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 900px) {
+  .input {
+    flex-wrap: wrap;
+  }
+  .newsletterContent {
+    gap: var(--gap-2xl);
+    padding-left: var(--padding-54xl);
+    padding-right: var(--padding-54xl);
+    box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 450px) {
+  .getTheLatest {
+    font-size: var(--font-size-lgi);
+    line-height: 33px;
+  }
+  .newsletterContent {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
